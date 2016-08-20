@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Don't Forget The Crystals</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+        <h2 id ="name">Don't Forget The Crystals!</h2>
+   </header>
+   <div class="paragraph">
+        <p>Uncle Rico is at it again. He was unable to get his time traveling machine to work.</p>
+        <p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
+        <p>You will not know the value till you click on the crystal.</p>
+        <p>Every new round, the values of the crystals will change.</p>
+        <p>Help Uncle Rico out by adding the correct amount of crystals!</p>
+    </div>
+    <div class="start">
+        <div class="total"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins"></div>
+        	Losses:<div id="losses"></div>
+        </div>
+    </div>
+    <div class="crystals">
+        <img src="assets/images/c1.jpg" class="click" id="c1">
+        <img src="assets/images/c2.jpeg" class="click" id="c2">
+        <img src="assets/images/c3.jpg" class="click" id="c3">
+        <img src="assets/images/c4.jpg" class="click" id="c4">
+   </div>
+   <div class="score">
+        <h5>Total Score Is:</h5>
+   </div>
+   <div class="addition"></div>
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+<p>&copy; Copyright 2016 Bryan Kenneweg</p>
